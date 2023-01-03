@@ -1,5 +1,5 @@
-AddEventHandler('playerJoining', function()
+AddEventHandler('playerSpawned', function()
     TriggerEvent('chat:addMessage', {
-        args = { string.format('Hello, %s!', GetPlayerName(source)) }
+        args = { "Me", string.format('Hello, %s!', GetPlayerName(source)) }
     })
 end)

@@ -5,5 +5,4 @@ author 'Happsie'
 description 'Hello world example for fivem-loader'
 version '1.0.0'
 
-
-server_script 'hello_world.lua'
+client_script 'hello_world.lua'
